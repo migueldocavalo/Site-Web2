@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peixaria IMM</title>
+<link href="trabalho.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <h1>Peixaria IMM</h1>
+        <h2>Oferecendo o melhor do mar!</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="historia.html">História da Pesca</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Nossos Produtos</h2>
+            <p>Na Peixaria IMM, oferecemos uma seleção de frutos do mar frescos e de alta qualidade. Nossa missão é garantir que nossos clientes tenham acesso aos melhores pescados do mercado.</p>
+            
+            <!-- Carrossel de imagens -->
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img src="peixe.jfif" alt="Peixe Fresco">
+                    <img src="camarao.jfif" alt="Camarão">
+                    <img src="lula.jfif" alt="Lula">
+                    <img src="polvo.jfif" alt="Polvo">
+                    <img src="frutos.jfif" alt="Frutos do Mar Congelados">
+                </div>
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Nosso Compromisso</h2>
+            <p>Comprometemo-nos a oferecer produtos frescos, saudáveis e sustentáveis. Trabalhamos com pescadores locais e garantimos a qualidade em cada entrega.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Peixaria IMM - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="trabalho.js"></script>
+</body>
+</html>
